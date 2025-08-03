@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
       <div style={{ textAlign: 'center' }}>
-        <img src="/homepage-pic.png" alt="Hero" style={{ width: '50%', maxWidth: '400px' }} />
+        <img src="/homepage-pic.png" alt="Hero" style={{ width: '90%', maxWidth: '600px' }} />
         <p>{t("welcome")}</p>
         <Link href="/owners">{t("resources")}</Link>
       </div>
