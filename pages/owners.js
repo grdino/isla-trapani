@@ -8,13 +8,13 @@ export default function Owners() {
 
   // Hardcoded sample data (will later pull from Google Sheets)
   const news = [
-    { id: 1, text: "Next HOA meeting: August 12th, 6 PM at Clubhouse" },
-    { id: 2, text: "Pool maintenance scheduled for August 20th" }
+    { id: 1, text: "This feature to be used in the future." },
+    { id: 2, text: "Esta función se utilizará en el futuro.." }
   ];
 
   const documents = [
-    { id: 1, name: "Bylaws.pdf", path: "/owners-docs/bylaws.pdf" },
-    { id: 2, name: "HOA-Rules.pdf", path: "/owners-docs/hoa-rules.pdf" }
+    { id: 1, name: "2023 Bylaws - English", path: "/owners-docs/bylaws.pdf" },
+    { id: 2, name: "2023 Reglamentos - Español", path: "/owners-docs/reglamentos.pdf" }
   ];
 
   return (
