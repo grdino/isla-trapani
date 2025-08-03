@@ -1,7 +1,7 @@
-
 import Layout from '../components/Layout';
 import ProtectedRoute from '../components/ProtectedRoute';
 import { useLanguage } from '../lib/useLanguage';
+import { getNews, getDocuments } from '../lib/googleSheets';
 
 export default function Owners() {
   const { t } = useLanguage();
@@ -13,7 +13,8 @@ export default function Owners() {
   ];
 
   const documents = [
-    { id: 1, name: "Bylaws.pdf", path: "/owners-docs/bylaws.pdf" }
+    { id: 1, name: "Bylaws.pdf", path: "/owners-docs/bylaws.pdf" },
+    { id: 2, name: "HOA-Rules.pdf", path: "/owners-docs/hoa-rules.pdf" }
   ];
 
   return (
@@ -31,7 +32,18 @@ export default function Owners() {
           <ul>
             {documents.map((doc) => (
               <li key={doc.id}>
-                <a href={doc.path} download>{doc.name}</a>
+                {doc.name} –{" "}
+                <a
+                  href={doc.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginRight: '10px' }}
+                >
+                  View
+                </a>
+                <a href={doc.path} download>
+                  Download
+                </a>
               </li>
             ))}
           </ul>
