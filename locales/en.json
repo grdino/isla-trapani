@@ -1,0 +1,15 @@
+{
+  "home": "Home",
+  "about": "About",
+  "owners": "Owners",
+  "login": "Login",
+  "logout": "Logout",
+  "welcome": "Welcome to Isla Trapani, a beautiful neighborhood in AltaVela II.",
+  "resources": "Homeowner's Resources",
+  "about_text": "Located in AltaVela II, Nayarit, Mexico. Gated community with beautiful gardens and pool.",
+  "owners_news": "Latest HOA News",
+  "owners_docs": "Owner Documents",
+  "password_prompt": "Enter password",
+  "incorrect_password": "Incorrect password",
+  "login_title": "Owner Login"
+}
