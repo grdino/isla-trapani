@@ -1,6 +1,5 @@
-
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from '../styles/Navbar.module.css';
 import { isLoggedIn, logout } from '../lib/auth';
 import { useRouter } from 'next/router';
@@ -10,6 +9,12 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const { t, lang, switchLang } = useLanguage();
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  // Check login state on client only
+  useEffect(() => {
+    setLoggedIn(isLoggedIn());
+  }, []);
 
   return (
     <nav className={styles.navbar}>
@@ -29,11 +34,12 @@ export default function Navbar() {
           <Link href="/">{t("home")}</Link>
           <Link href="/about">{t("about")}</Link>
           <Link href="/owners">{t("owners")}</Link>
-          {isLoggedIn() ? (
+          {loggedIn ? (
             <a
               href="#"
               onClick={() => {
                 logout();
+                setLoggedIn(false);
                 router.push('/login');
               }}
             >
