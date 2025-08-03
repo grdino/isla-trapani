@@ -1,4 +1,3 @@
-
 import Layout from '../components/Layout';
 import { useState } from 'react';
 import { login } from '../lib/auth';
@@ -11,9 +10,17 @@ export default function Login() {
   const router = useRouter();
   const { t } = useLanguage();
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    if (login(password)) {
+
+    // Call API route
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      body: JSON.stringify({ password }),
+    });
+
+    if (res.ok) {
+      login();
       router.push('/owners');
     } else {
       setError(t("incorrect_password"));
