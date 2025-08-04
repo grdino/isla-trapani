@@ -69,8 +69,8 @@ export default function Owners() {
            <tbody>
              <tr>
                <td data-label="Fecha&#10;Date">2023-11</td>
-               <td data-label="Tipo de Reunión&#10;Meeting Type">
-                 Acta Ordinaria<br />Ordinary Meeting
+               <td data-label="Reunión&#10;Meeting">
+                 Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Convocatoria">
                  <a href="/owners-docs/call-2023-11-esp.pdf">Esp</a>
@@ -87,8 +87,8 @@ export default function Owners() {
              </tr>
              <tr>
                <td data-label="Fecha&#10;Date">2024-12</td>
-               <td data-label="Tipo de Reunión&#10;Meeting Type">
-                 Acta Extraordinaria<br />Extraordinary Meeting
+               <td data-label="Reunión&#10;Meeting">
+                 Asamblea Extraordinaria<br />Extraordinary Meeting
                </td>
                <td data-label="Convocatoria">
                  <a href="/owners-docs/call-2024-12-esp.pdf">Esp</a>
@@ -105,7 +105,7 @@ export default function Owners() {
              </tr>
              <tr>
                <td data-label="Fecha&#10;Date">2025-07</td>
-               <td data-label="Tipo de Reunión&#10;Meeting Type">??</td>
+               <td data-label="Reunión&#10;Meeting">??</td>
                <td data-label="Convocatoria"><a href="#">NA</a></td>
                <td data-label="Call"><a href="#">NA</a></td>
                <td data-label="Acta"><a href="#">NA</a></td>
