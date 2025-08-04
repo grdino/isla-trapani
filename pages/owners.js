@@ -54,10 +54,10 @@ export default function Owners() {
           <table className="responsive-table">
             <thead>
               <tr>
-                <th rowSpan="2">Fecha<br />Date</th>
-                <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
-                <th colSpan="2">Convocatoria<br />Call</th>
-                <th colSpan="2">Acta<br />Minutes</th>
+                <th rowSpan="2">Fecha<br>Date</th>
+                <th rowSpan="2">Tipo de Reunión<br>Type of Meeting</th>
+                <th colSpan="2">Convocatoria<br>Call</th>
+                <th colSpan="2">Acta<br>Minutes</th>
               </tr>
               <tr>
                 <th>Esp</th>
