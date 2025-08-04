@@ -54,10 +54,10 @@ export default function Owners() {
           <table className="responsive-table">
             <thead>
               <tr>
-                <th rowSpan="2">Fecha<br>Date</th>
-                <th rowSpan="2">Tipo de Reunión<br>Type of Meeting</th>
-                <th colSpan="2">Convocatoria<br>Call</th>
-                <th colSpan="2">Acta<br>Minutes</th>
+                <th rowSpan="2">Fecha<br />Date</th>
+                <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
+                <th colSpan="2">Convocatoria<br />Call</th>
+                <th colSpan="2">Acta<br />Minutes</th>
               </tr>
               <tr>
                 <th>Esp</th>
@@ -104,12 +104,12 @@ export default function Owners() {
                 </td>
               </tr>
               <tr>
-                <td data-label="Fecha<br>Date">2025-07</td>
-                <td data-label="Tipo de Reunión<br>Type of Meeting">??</td>
-                <td data-label="Convocatoria"><a href="#">Esp</a></td>
-                <td data-label="Call"><a href="#">Eng</a></td>
-                <td data-label="Acta"><a href="#">Esp</a></td>
-                <td data-label="Minutes"><a href="#">Eng</a></td>
+                <td data-label="Fecha/Date">2025-07</td>
+                <td data-label="Tipo/Type">??</td>
+                <td data-label="Convocatoria"><a href="#">NA</a></td>
+                <td data-label="Call"><a href="#">NA</a></td>
+                <td data-label="Acta"><a href="#">NA</a></td>
+                <td data-label="Minutes"><a href="#">NA</a></td>
               </tr>
             </tbody>
           </table>
