@@ -59,12 +59,6 @@ export default function Owners() {
                <th colSpan="2">Convocatoria<br />Call</th>
                <th colSpan="2">Acta<br />Minutes</th>
              </tr>
-             <tr>
-               <th>Esp</th>
-               <th>Eng</th>
-               <th>Esp</th>
-               <th>Eng</th>
-             </tr>
            </thead>
            <tbody>
              <tr>
