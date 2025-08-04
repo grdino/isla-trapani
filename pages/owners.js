@@ -47,8 +47,127 @@ export default function Owners() {
               </li>
             ))}
           </ul>
+
+          {/* New Section: Asambleas / Assemblies */}
+          <h2>Asambleas / Assemblies</h2>
+
+          <table className="responsive-table">
+            <thead>
+              <tr>
+                <th rowSpan="2">Fecha<br />Date</th>
+                <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
+                <th colSpan="2">Convocatoria<br />Call</th>
+                <th colSpan="2">Acta<br />Minutes</th>
+              </tr>
+              <tr>
+                <th>Esp</th>
+                <th>Eng</th>
+                <th>Esp</th>
+                <th>Eng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Fecha/Date">2023-11</td>
+                <td data-label="Tipo de Reunión / Type of Meeting">
+                  Acta Ordinaria<br />Ordinary Meeting
+                </td>
+                <td data-label="Convocatoria Esp">
+                  <a href="/owners-docs/call-2023-11-esp.pdf">Esp</a>
+                </td>
+                <td data-label="Convocatoria Eng">
+                  <a href="/owners-docs/call-2023-11-eng.pdf">Eng</a>
+                </td>
+                <td data-label="Acta Esp">
+                  <a href="/owners-docs/minutes-2023-11-esp.pdf">Esp</a>
+                </td>
+                <td data-label="Acta Eng">
+                  <a href="/owners-docs/minutes-2023-11-eng.pdf">Eng</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Fecha/Date">2024-12</td>
+                <td data-label="Tipo de Reunión / Type of Meeting">
+                  Acta Extraordinaria<br />Extraordinary Meeting
+                </td>
+                <td data-label="Convocatoria Esp">
+                  <a href="/owners-docs/call-2024-12-esp.pdf">Esp</a>
+                </td>
+                <td data-label="Convocatoria Eng">
+                  <a href="/owners-docs/call-2024-12-eng.pdf">Eng</a>
+                </td>
+                <td data-label="Acta Esp">
+                  <a href="/owners-docs/minutes-2024-12-esp.pdf">Esp</a>
+                </td>
+                <td data-label="Acta Eng">
+                  <a href="/owners-docs/minutes-2024-12-eng.pdf">Eng</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Fecha/Date">2025-07</td>
+                <td data-label="Tipo de Reunión / Type of Meeting">??</td>
+                <td data-label="Convocatoria Esp"><a href="#">Esp</a></td>
+                <td data-label="Convocatoria Eng"><a href="#">Eng</a></td>
+                <td data-label="Acta Esp"><a href="#">Esp</a></td>
+                <td data-label="Acta Eng"><a href="#">Eng</a></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </ProtectedRoute>
+
+      <style jsx>{`
+        .responsive-table {
+          width: 100%;
+          border-collapse: collapse;
+          text-align: center;
+          margin-top: 15px;
+        }
+        .responsive-table th,
+        .responsive-table td {
+          border: 1px solid #ccc;
+          padding: 8px;
+        }
+
+        @media screen and (max-width: 768px) {
+          .responsive-table,
+          .responsive-table thead,
+          .responsive-table tbody,
+          .responsive-table th,
+          .responsive-table tr {
+            display: block;
+            width: 100%;
+          }
+
+          .responsive-table thead {
+            display: none;
+          }
+
+          .responsive-table tr {
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            background: #f9f9f9;
+          }
+
+          .responsive-table td {
+            display: block;
+            text-align: right;
+            border: none;
+            padding: 6px;
+            position: relative;
+          }
+
+          .responsive-table td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            font-weight: bold;
+            text-align: left;
+          }
+        }
+      `}</style>
     </Layout>
   );
 }
