@@ -165,6 +165,7 @@ export default function Owners() {
             left: 10px;
             font-weight: bold;
             text-align: left;
+            white-space: pre-line;
           }
         }
       `}</style>
