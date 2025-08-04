@@ -13,8 +13,8 @@ export default function Owners() {
   ];
 
   const documents = [
-    { id: 1, name: "2023 Bylaws - English", path: "/owners-docs/bylaws.pdf" },
-    { id: 2, name: "2023 Reglamentos - Español", path: "/owners-docs/reglamentos.pdf" }
+    { id: 1, name: "Bylaws - Eng", path: "/owners-docs/bylaws.pdf" },
+    { id: 2, name: "Reglamentos - Esp", path: "/owners-docs/reglamentos.pdf" }
   ];
 
   return (
