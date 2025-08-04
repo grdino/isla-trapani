@@ -99,7 +99,9 @@ export default function Owners() {
              </tr>
              <tr>
                <td data-label="Fecha&#10;Date">2025-07</td>
-               <td data-label="Reunión&#10;Meeting">??</td>
+               <td data-label="Reunión&#10;Meeting">
+                No Disponible<br />Not Available
+               </td>
                <td data-label="Convocatoria"><a href="#">NA</a></td>
                <td data-label="Call"><a href="#">NA</a></td>
                <td data-label="Acta"><a href="#">NA</a></td>
