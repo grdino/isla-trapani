@@ -68,48 +68,48 @@ export default function Owners() {
             </thead>
             <tbody>
               <tr>
-                <td data-label="Fecha/Date">2023-11</td>
-                <td data-label="Tipo de Reunión / Type of Meeting">
+                <td data-label="Fecha<br>Date">2023-11</td>
+                <td data-label="Tipo de Reunión<br>Type of Meeting">
                   Acta Ordinaria<br />Ordinary Meeting
                 </td>
-                <td data-label="Convocatoria Esp">
+                <td data-label="Convocatoria">
                   <a href="/owners-docs/call-2023-11-esp.pdf">Esp</a>
                 </td>
-                <td data-label="Convocatoria Eng">
+                <td data-label="Call">
                   <a href="/owners-docs/call-2023-11-eng.pdf">Eng</a>
                 </td>
-                <td data-label="Acta Esp">
+                <td data-label="Acta">
                   <a href="/owners-docs/minutes-2023-11-esp.pdf">Esp</a>
                 </td>
-                <td data-label="Acta Eng">
+                <td data-label="Minutes">
                   <a href="/owners-docs/minutes-2023-11-eng.pdf">Eng</a>
                 </td>
               </tr>
               <tr>
-                <td data-label="Fecha/Date">2024-12</td>
-                <td data-label="Tipo de Reunión / Type of Meeting">
+                <td data-label="Fecha<br>Date">2024-12</td>
+                <td data-label="Tipo de Reunión<br>Type of Meeting">
                   Acta Extraordinaria<br />Extraordinary Meeting
                 </td>
-                <td data-label="Convocatoria Esp">
+                <td data-label="Convocatoria">
                   <a href="/owners-docs/call-2024-12-esp.pdf">Esp</a>
                 </td>
-                <td data-label="Convocatoria Eng">
+                <td data-label="Call">
                   <a href="/owners-docs/call-2024-12-eng.pdf">Eng</a>
                 </td>
-                <td data-label="Acta Esp">
+                <td data-label="Acta">
                   <a href="/owners-docs/minutes-2024-12-esp.pdf">Esp</a>
                 </td>
-                <td data-label="Acta Eng">
+                <td data-label="Minutes">
                   <a href="/owners-docs/minutes-2024-12-eng.pdf">Eng</a>
                 </td>
               </tr>
               <tr>
-                <td data-label="Fecha/Date">2025-07</td>
-                <td data-label="Tipo de Reunión / Type of Meeting">??</td>
-                <td data-label="Convocatoria Esp"><a href="#">Esp</a></td>
-                <td data-label="Convocatoria Eng"><a href="#">Eng</a></td>
-                <td data-label="Acta Esp"><a href="#">Esp</a></td>
-                <td data-label="Acta Eng"><a href="#">Eng</a></td>
+                <td data-label="Fecha<br>Date">2025-07</td>
+                <td data-label="Tipo de Reunión<br>Type of Meeting">??</td>
+                <td data-label="Convocatoria"><a href="#">Esp</a></td>
+                <td data-label="Call"><a href="#">Eng</a></td>
+                <td data-label="Acta"><a href="#">Esp</a></td>
+                <td data-label="Minutes"><a href="#">Eng</a></td>
               </tr>
             </tbody>
           </table>
