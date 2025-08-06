@@ -90,10 +90,10 @@ export default function Owners() {
                  Asamblea Extraordinaria<br />Extraordinary Meeting
                </td>
                <td data-label="Convocatoria">
-                 <a href="/owners-docs/combined-2024-09-07-esp.pdf">Esp</a>
+                 <a href="/owners-docs/combined-2024-09-07-esp.pdf">Español</a>
                </td>
                <td data-label="Call">
-                 <a href="/owners-docs/combined-2024-09-07-eng.pdf">Eng</a>
+                 <a href="/owners-docs/combined-2024-09-07-eng.pdf">English</a>
                </td>
              </tr>
              <tr>
