@@ -94,6 +94,7 @@ export default function Owners() {
                </td>
                <td data-label="Call">
                  <a href="/owners-docs/combined-2024-09-07-eng.pdf">Eng</a>
+               </td>
              </tr>
              <tr>
                <td data-label="Fecha&#10;Date">2024-12-21</td>
