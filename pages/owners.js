@@ -56,56 +56,68 @@ export default function Owners() {
              <tr>
                <th rowSpan="2">Fecha<br />Date</th>
                <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
-               <th colSpan="2">Convocatoria<br />Call</th>
-               <th colSpan="2">Acta<br />Minutes</th>
+               <th colSpan="2">Documentos<br />Documents</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;Date">2023-11</td>
+               <td data-label="Fecha&#10;Date">2023-11-11</td>
                <td data-label="Reunión&#10;Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
                </td>
-               <td data-label="Convocatoria">
-                 <a href="/owners-docs/call-2023-11-esp.pdf">Esp</a>
+               <td data-label="Documentos">
+                 <a href="/owners-docs/combined-2023-11-11-esp.pdf">Español</a>
                </td>
-               <td data-label="Call">
-                 <a href="/owners-docs/call-2023-11-eng.pdf">Eng</a>
-               </td>
-               <td data-label="Acta">
-                 <a href="/owners-docs/minutes-2023-11-esp.pdf">Esp</a>
-               </td>
-               <td data-label="Minutes">
-                 <a href="/owners-docs/minutes-2023-11-eng.pdf">Eng</a>
+               <td data-label="Documents">
+                 <a href="/owners-docs/combined-2023-11-11-eng.pdf">English</a>
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;Date">2024-12</td>
+               <td data-label="Fecha&#10;Date">2024-06-15</td>
+               <td data-label="Reunión&#10;Meeting">
+                 Asamblea Ordinaria<br />Ordinary Meeting
+               </td>
+               <td data-label="Documentos">
+                 <a href="/owners-docs/combined-2024-06-15-esp.pdf">Español</a>
+               </td>
+               <td data-label="Documents">
+                 <a href="/owners-docs/combined-2024-06-15-eng.pdf">English</a>
+               </td>
+             </tr>
+             <tr>
+               <td data-label="Fecha&#10;Date">2024-09-07</td>
                <td data-label="Reunión&#10;Meeting">
                  Asamblea Extraordinaria<br />Extraordinary Meeting
                </td>
                <td data-label="Convocatoria">
-                 <a href="/owners-docs/call-2024-12-esp.pdf">Esp</a>
+                 <a href="/owners-docs/combined-2024-09-07-esp.pdf">Esp</a>
                </td>
                <td data-label="Call">
-                 <a href="/owners-docs/call-2024-12-eng.pdf">Eng</a>
+                 <a href="/owners-docs/combined-2024-09-07-eng.pdf">Eng</a>
+             </tr>
+             <tr>
+               <td data-label="Fecha&#10;Date">2024-12-21</td>
+               <td data-label="Reunión&#10;Meeting">
+                 Asamblea Ordinaria<br />Ordinary Meeting
                </td>
-               <td data-label="Acta">
-                 <a href="/owners-docs/minutes-2024-12-esp.pdf">Esp</a>
+               <td data-label="Documentos">
+                 <a href="/owners-docs/combined-2024-12-21-esp.pdf">Español</a>
                </td>
-               <td data-label="Minutes">
-                 <a href="/owners-docs/minutes-2024-12-eng.pdf">Eng</a>
+               <td data-label="Documents">
+                 <a href="/owners-docs/combined-2024-12-21-eng.pdf">English</a>
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;Date">2025-07</td>
+               <td data-label="Fecha&#10;Date">2025-07-05</td>
                <td data-label="Reunión&#10;Meeting">
                 No Disponible<br />Not Available
                </td>
-               <td data-label="Convocatoria"><a href="#">NA</a></td>
-               <td data-label="Call"><a href="#">NA</a></td>
-               <td data-label="Acta"><a href="#">NA</a></td>
-               <td data-label="Minutes"><a href="#">NA</a></td>
+               <td data-label="Documentos">
+                 <a href="/owners-docs/combined-2025-07-05-esp.pdf">Español</a>
+               </td>
+               <td data-label="Documents">
+                 <a href="/owners-docs/combined-2025-07-05-eng.pdf">English</a>
+               </td>
              </tr>
            </tbody>
          </table>
