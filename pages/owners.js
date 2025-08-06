@@ -69,7 +69,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2023-11-11-esp.pdf">Español</a>
                </td>
                <td data-label="Documents">
-                 <a href="/owners-docs/no-english-avialable.pdf">English</a>
+                 <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
