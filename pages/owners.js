@@ -69,7 +69,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2023-11-11-esp.pdf">Español</a>
                </td>
                <td data-label="Documents">
-                 <a href="/owners-docs/combined-2023-11-11-eng.pdf">English</a>
+                 <a href="/owners-docs/no-english-avialable.pdf">English</a>
                </td>
              </tr>
              <tr>
@@ -81,7 +81,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2024-06-15-esp.pdf">Español</a>
                </td>
                <td data-label="Documents">
-                 <a href="/owners-docs/combined-2024-06-15-eng.pdf">English</a>
+                 <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
@@ -93,7 +93,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2024-09-07-esp.pdf">Español</a>
                </td>
                <td data-label="Call">
-                 <a href="/owners-docs/combined-2024-09-07-eng.pdf">English</a>
+                 <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
@@ -105,7 +105,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2024-12-21-esp.pdf">Español</a>
                </td>
                <td data-label="Documents">
-                 <a href="/owners-docs/combined-2024-12-21-eng.pdf">English</a>
+                 <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
@@ -117,7 +117,7 @@ export default function Owners() {
                  <a href="/owners-docs/combined-2025-07-05-esp.pdf">Español</a>
                </td>
                <td data-label="Documents">
-                 <a href="/owners-docs/combined-2025-07-05-eng.pdf">English</a>
+                 <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
            </tbody>
