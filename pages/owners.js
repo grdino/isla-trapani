@@ -134,8 +134,8 @@ export default function Owners() {
                 <th>Admin Report</th>
               </tr>
               <tr>
-                <th>From</th>
-                <th>Through</th>
+                <th>De<br />From</th>
+                <th>A Traves De<br />Through</th>
                 <th></th>
                 <th></th>
               </tr>
