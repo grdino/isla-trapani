@@ -130,8 +130,8 @@ export default function Owners() {
             <thead>
               <tr>
                 <th colSpan="2">Período<br />Period</th>
-                <th>Bank Statement</th>
-                <th>Admin Report</th>
+                <th>Cuenta De Banco<br />Bank Statement</th>
+                <th>Informe de Admon<br />Admin Report</th>
               </tr>
               <tr>
                 <th>De<br />From</th>
