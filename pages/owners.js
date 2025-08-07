@@ -129,7 +129,7 @@ export default function Owners() {
           <table className="responsive-table">
             <thead>
               <tr>
-                <th colSpan="2">Period</th>
+                <th colSpan="2">Período<br />Period</th>
                 <th>Bank Statement</th>
                 <th>Admin Report</th>
               </tr>
