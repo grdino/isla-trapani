@@ -144,12 +144,12 @@ export default function Owners() {
               <tr>
                 <td data-label="From">01/01/2025</td>
                 <td data-label="Through">01/31/2025</td>
-                <td data-label="Bank Statement">
+                <td data-label="Cuenta De Banco<br />Bank Statement">
                   <a href="/owners-docs/bank-2025-01.pdf" target="_blank" rel="noopener noreferrer">
                     Link
                   </a>
                 </td>
-                <td data-label="Admin Report">
+                <td data-label="Informe de Admon<br />Admin Report">
                   <a href="/owners-docs/admin-2025-01.pdf" target="_blank" rel="noopener noreferrer">
                     Link
                   </a>
