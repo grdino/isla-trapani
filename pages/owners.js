@@ -122,6 +122,41 @@ export default function Owners() {
              </tr>
            </tbody>
          </table>
+
+          {/* New Section: Asambleas / Assemblies */}
+          <h2>Bank Statements / Admin Reports</h2>
+
+          <table className="responsive-table">
+            <thead>
+              <tr>
+                <th colSpan="2">Period</th>
+                <th>Bank Statement</th>
+                <th>Admin Report</th>
+              </tr>
+              <tr>
+                <th>From</th>
+                <th>Through</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="From">01/01/2025</td>
+                <td data-label="Through">01/31/2025</td>
+                <td data-label="Bank Statement">
+                  <a href="/owners-docs/bank-2025-01.pdf" target="_blank" rel="noopener noreferrer">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admin Report">
+                  <a href="/owners-docs/admin-2025-01.pdf" target="_blank" rel="noopener noreferrer">
+                    Link
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </ProtectedRoute>
 
