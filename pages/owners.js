@@ -56,15 +56,15 @@ export default function Owners() {
           {/* New Section: Documentos / Documents */}
          <br />
          <hr className="full-line" />
-          <h2>Documentos / Documents</h2>
+          <h2>{t("owners_docs")}</h2>
          <hr className="full-line" />
 
          <table className="responsive-table">
            <thead>
              <tr>
                <th rowSpan="2">Fecha<br />Date</th>
-               <th rowSpan="2">Tipo de Documento<br />Type of Document</th>
-               <th colSpan="2">Documentos<br />Documents</th>
+               <th rowSpan="2">Tipo de Documento<br />Document Type</th>
+               <th colSpan="2">Documento<br />Document</th>
              </tr>
            </thead>
            <tbody>
@@ -86,7 +86,7 @@ export default function Owners() {
           {/* New Section: Asambleas / Assemblies */}
          <br />
          <hr className="full-line" />
-          <h2>Asambleas / Assemblies</h2>
+         <h2>{t("assemblies")}</h2>
          <hr className="full-line" />
 
          <table className="responsive-table">
