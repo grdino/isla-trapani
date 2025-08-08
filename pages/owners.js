@@ -12,11 +12,6 @@ export default function Owners() {
     { id: 2, text: "Esta función se utilizará en el futuro.." }
   ];
 
-  const documents = [
-    { id: 1, name: "Bylaws - Eng", path: "/owners-docs/bylaws.pdf" },
-    { id: 2, name: "Reglamentos - Esp", path: "/owners-docs/reglamentos.pdf" }
-  ];
-
   return (
     <Layout>
       <ProtectedRoute>
@@ -30,29 +25,6 @@ export default function Owners() {
             ))}
           </ul>
             
-         <br />
-         <hr className="full-line" />
-          <h2>{t("owners_docs")}</h2>
-         <hr className="full-line" />
-          <ul>
-            {documents.map((doc) => (
-              <li key={doc.id}>
-                {doc.name} –{" "}
-                <a
-                  href={doc.path}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ marginRight: '10px' }}
-                >
-                  View
-                </a>
-                <a href={doc.path} download>
-                  Download
-                </a>
-              </li>
-            ))}
-          </ul>
-
           {/* New Section: Documentos / Documents */}
          <br />
          <hr className="full-line" />
@@ -167,7 +139,7 @@ export default function Owners() {
          <br />
          <br />
          <hr className="full-line" />
-          <h2>Bank Statements / Admin Reports</h2>
+         <h2>{t("hoa_payments")}</h2>
          <hr className="full-line" />
 
           <table className="responsive-table">
