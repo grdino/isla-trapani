@@ -78,8 +78,13 @@ export default function Owners() {
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;Date>2025-07-05"</td>
-               <td data-label="Reunión&#10;/Meeting">
+               <td data-label="">
+                <span className="label-bold">Fecha / Date</span>
+                 <span className="date-format"> (AAAA/MM/DD)</span>
+                 <br />
+                 2025-07-05
+               </td>
+               <td data-label="Reunión&#10;/ Meeting">
                 Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Documentos">
@@ -92,8 +97,8 @@ export default function Owners() {
                </td>
              </tr>
              <tr>
-                 <td data-label="Fecha&#10;Date">2024-12-21</td>
-               <td data-label="Reunión&#10;/Meeting">
+                 <td data-label="Fecha&#10;/ Date">2024-12-21</td>
+               <td data-label="Reunión&#10;/ Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Documentos">
@@ -104,8 +109,8 @@ export default function Owners() {
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;Date">2024-09-07</td>
-               <td data-label="Reunión&#10;/Meeting">
+               <td data-label="Fecha&#10;/ Date">2024-09-07</td>
+               <td data-label="Reunión&#10;/ Meeting">
                  Asamblea Extraordinaria<br />Extraordinary Meeting
                </td>
                <td data-label="Documentos">
@@ -116,8 +121,8 @@ export default function Owners() {
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;Date">2024-06-15</td>
-               <td data-label="Reunión&#10;/Meeting">
+               <td data-label="Fecha&#10;/ Date">2024-06-15</td>
+               <td data-label="Reunión&#10;/ Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Documentos">
@@ -128,8 +133,8 @@ export default function Owners() {
                </td>
              </tr>   
              <tr>
-               <td data-label="Fecha&#10;Date">2023-11-11</td>
-               <td data-label="Reunión&#10;/Meeting">
+               <td data-label="Fecha&#10;/ Date">2023-11-11</td>
+               <td data-label="Reunión&#10;/ Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Documentos">
