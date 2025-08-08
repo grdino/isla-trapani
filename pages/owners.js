@@ -68,7 +68,7 @@ export default function Owners() {
          <table className="responsive-table">
            <thead>
              <tr>
-               <th rowSpan="2">Fecha<br />Date</th>
+               <th rowSpan="2">Fecha (AAAA/MM/DD)<br />Date (YYYY/MM/DD</th>
                <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
                <th colSpan="2">Documentos<br />Documents</th>
              </tr>
