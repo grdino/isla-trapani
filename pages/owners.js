@@ -219,9 +219,7 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Junio&#10;/June</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/hoa/bank_2025-06.pdf" target="_self">
-                    no disponible / not available
-                  </a>
+                 <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
                 <td data-label="Admon&#10;/Admin">
                   <div className="no-hay-text">No Disponible / Not Available</div>
@@ -233,9 +231,7 @@ export default function Owners() {
                  <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/hoa/admin_2025-07.pdf" target="_self">
-                    no disponible / not available
-                  </a>
+                 <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
               </tr>
               <tr>
