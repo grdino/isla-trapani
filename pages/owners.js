@@ -154,12 +154,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Enero&#10;/January</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-01.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-01.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-01.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-01.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -167,12 +167,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Febrero&#10;/February</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-02.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-02.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-02.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-02.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -180,12 +180,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Marzo&#10;/March</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-03.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-03.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-03.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-03.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -193,12 +193,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Abril&#10;/April</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-04.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-04.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-04.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-04.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -206,12 +206,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Mayo&#10;/May</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-05.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-05.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-05.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-05.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -219,12 +219,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Junio&#10;/June</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-06.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-06.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-06.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-06.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -232,12 +232,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Julio&#10;/July</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-07.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-07.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-07.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-07.pdf" target="_self">
                     Link
                   </a>
                 </td>
@@ -245,12 +245,12 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Agosto&#10;/August</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank_2025-08.pdf" target="_self">
+                  <a href="/owners-docs/hoa/bank_2025-08.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin_2025-08.pdf" target="_self">
+                  <a href="/owners-docs/hoa/admin_2025-08.pdf" target="_self">
                     Link
                   </a>
                 </td>
