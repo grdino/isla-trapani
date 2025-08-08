@@ -22,7 +22,18 @@ export default function Navbar() {
         <img src="/it-logo-trans.png" className={styles.logo} />
         <span className={styles.title}>Isla Trapani</span>
       </div>
+
       <div className={styles.right}>
+        {/* Single language toggle: left of menu (desktop) and left of hamburger (mobile) */}
+        <button
+          className={styles.langToggle}
+          onClick={() => switchLang(lang === "en" ? "es" : "en")}
+          aria-label="Switch language"
+        >
+          {lang === "en" ? "Español" : "English"}
+        </button>
+
+        {/* Hamburger (mobile) */}
         <button
           className={styles.hamburger}
           onClick={() => setOpen(!open)}
@@ -30,6 +41,8 @@ export default function Navbar() {
         >
           ☰
         </button>
+
+        {/* Menu links */}
         <div className={`${styles.menu} ${open ? styles.show : ''}`}>
           <Link href="/">{t("home")}</Link>
           <Link href="/about">{t("about")}</Link>
@@ -48,11 +61,7 @@ export default function Navbar() {
           ) : (
             <Link href="/login">{t("login")}</Link>
           )}
-          <button 
-            style={{background:"none", border:"none", color:"white", cursor:"pointer"}}
-            onClick={() => switchLang(lang === "en" ? "es" : "en")}>
-            {lang === "en" ? "Español" : "English"}
-          </button>
+          {/* Language toggle removed from inside the menu */}
         </div>
       </div>
     </nav>
