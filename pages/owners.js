@@ -63,7 +63,7 @@ export default function Owners() {
              <tr>
                <td data-label="Fecha&#10;Date">2025-07-05</td>
                <td data-label="Reunión&#10;/Meeting">
-                No Disponible<br />Not Available
+                Asamblea Ordinaria<br />Ordinary Meeting
                </td>
                <td data-label="Documentos">
                  <a href="/owners-docs/combined-2025-07-05-esp.pdf">Español</a>
