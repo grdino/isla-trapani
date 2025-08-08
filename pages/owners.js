@@ -129,21 +129,14 @@ export default function Owners() {
           <table className="responsive-table">
             <thead>
               <tr>
-                <th colSpan="2">Período<br />Period</th>
+                <th>2025</th>
                 <th>Cuenta De Banco<br />Bank Statement</th>
                 <th>Informe de Admon<br />Admin Report</th>
-              </tr>
-              <tr>
-                <th>De<br />From</th>
-                <th>A Traves De<br />Through</th>
-                <th></th>
-                <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td data-label="From">01/01/2025</td>
-                <td data-label="Through">01/31/2025</td>
+                <td data-label="2025">Enero&#10;/January</td>
                 <td data-label="Banco&#10;/Bank">
                   <a href="/owners-docs/bank-2025-01.pdf" target="_blank" rel="noopener noreferrer">
                     Link
