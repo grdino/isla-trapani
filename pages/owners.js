@@ -41,7 +41,7 @@ export default function Owners() {
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;Date">2023</td>
+               <td data-label="Fecha&#10;Date">2024</td>
                <td data-label="Typo de Doc&#10;/ Doc Type">
                 Reglamentos<br />Bylaws
                </td>
