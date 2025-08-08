@@ -63,14 +63,14 @@ export default function Owners() {
            <thead>
              <tr>
                <th rowSpan="2">Fecha<br />Date</th>
-               <th rowSpan="2">Tipo de Documento<br />Type of Document</th>
+               <th rowSpan="2">Tipo de Doc<br />Type of Doc</th>
                <th colSpan="2">Documentos<br />Documents</th>
              </tr>
            </thead>
            <tbody>
              <tr>
                <td data-label="Fecha&#10;Date">2023</td>
-               <td data-label="Documentos&#10;/Documents">
+               <td data-label="Typo de Doc&#10;/Doc Type">
                 Reglamentos<br />Bylaws
                </td>
                <td data-label="Documentos">
