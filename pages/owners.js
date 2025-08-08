@@ -133,6 +133,7 @@ export default function Owners() {
 
           {/* New Section: Asambleas / Assemblies */}
          <br />
+         <br />
          <hr className="full-line" />
           <h2>Bank Statements / Admin Reports</h2>
          <hr className="full-line" />
