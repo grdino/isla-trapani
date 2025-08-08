@@ -53,6 +53,36 @@ export default function Owners() {
             ))}
           </ul>
 
+          {/* New Section: Documentos / Documents */}
+         <br />
+         <hr className="full-line" />
+          <h2>Documentos / Documents</h2>
+         <hr className="full-line" />
+
+         <table className="responsive-table">
+           <thead>
+             <tr>
+               <th rowSpan="2">Fecha<br />Date</th>
+               <th rowSpan="2">Tipo de Documento<br />Type of Document</th>
+               <th colSpan="2">Documentos<br />Documents</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td data-label="Fecha&#10;Date">2023</td>
+               <td data-label="Documentos&#10;/Documents">
+                Reglamentos<br />Bylaws
+               </td>
+               <td data-label="Documentos">
+                 <a href="/owners-docs/reglamentos.pdf">Español</a>
+               </td>
+               <td data-label="Documents">
+                 <a href="/owners-docs/bylaws.pdf">English</a>
+               </td>
+             </tr>
+           </tbody>
+         </table>
+
           {/* New Section: Asambleas / Assemblies */}
          <br />
          <hr className="full-line" />
