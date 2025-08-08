@@ -75,6 +75,7 @@ export default function Owners() {
                </td>
                <td data-label="Documentos">
                  <a href="/owners-docs/combined-2025-07-05-esp.pdf">Español</a>
+                 <div className="no-hay-text">No Hay</div>
                </td>
                <td data-label="Documents">
                  <a href="/owners-docs/no-english-available.pdf">English</a>
