@@ -267,9 +267,7 @@ export default function Owners() {
                  <div className="no-hay-text">NA</div>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/hoa/admin_2025-11.pdf" target="_self">
-                    NA
-                  </a>
+                 <div className="no-hay-text">NA</div>
                 </td>
               </tr>
               <tr>
