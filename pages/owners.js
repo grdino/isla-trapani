@@ -166,7 +166,7 @@ export default function Owners() {
 
       <style jsx>{`
         .responsive-table {
-          width: 100%;
+          width: 85%;
           border-collapse: collapse;
           text-align: center;
           margin-top: 15px;
