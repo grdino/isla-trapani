@@ -21,6 +21,7 @@ export default function Owners() {
     <Layout>
       <ProtectedRoute>
         <div style={{ padding: '20px' }}>
+         <hr className="full-line" />
           <h2>{t("owners_news")}</h2>
           <ul>
             {news.map((item) => (
@@ -28,6 +29,7 @@ export default function Owners() {
             ))}
           </ul>
 
+         <hr className="full-line" />
           <h2>{t("owners_docs")}</h2>
           <ul>
             {documents.map((doc) => (
@@ -49,6 +51,7 @@ export default function Owners() {
           </ul>
 
           {/* New Section: Asambleas / Assemblies */}
+         <hr className="full-line" />
           <h2>Asambleas / Assemblies</h2>
 
          <table className="responsive-table">
@@ -124,6 +127,7 @@ export default function Owners() {
          </table>
 
           {/* New Section: Asambleas / Assemblies */}
+         <hr className="full-line" />
           <h2>Bank Statements / Admin Reports</h2>
 
           <table className="responsive-table">
