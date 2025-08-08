@@ -220,12 +220,12 @@ export default function Owners() {
                 <td data-label="2025">Junio&#10;/June</td>
                 <td data-label="Banco&#10;/Bank">
                   <a href="/owners-docs/hoa/bank_2025-06.pdf" target="_self">
-                    Link
+                    no disponible / not available
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
                   <a href="/owners-docs/hoa/admin_2025-06.pdf" target="_self">
-                    Link
+                    no disponible / not available
                   </a>
                 </td>
               </tr>
@@ -233,12 +233,12 @@ export default function Owners() {
                 <td data-label="2025">Julio&#10;/July</td>
                 <td data-label="Banco&#10;/Bank">
                   <a href="/owners-docs/hoa/bank_2025-07.pdf" target="_self">
-                    Link
+                    no disponible / not available
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
                   <a href="/owners-docs/hoa/admin_2025-07.pdf" target="_self">
-                    Link
+                    no disponible / not available
                   </a>
                 </td>
               </tr>
@@ -246,12 +246,64 @@ export default function Owners() {
                 <td data-label="2025">Agosto&#10;/August</td>
                 <td data-label="Banco&#10;/Bank">
                   <a href="/owners-docs/hoa/bank_2025-08.pdf" target="_self">
-                    Link
+                    NA
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
                   <a href="/owners-docs/hoa/admin_2025-08.pdf" target="_self">
-                    Link
+                    NA
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Septiembre&#10;/September</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/hoa/bank_2025-09.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/hoa/admin_2025-09.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Octubre&#10;/October</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/hoa/bank_2025-10.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/hoa/admin_2025-10.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Noviembre&#10;/November</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/hoa/bank_2025-11.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/hoa/admin_2025-11.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Diciembre&#10;/December</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/hoa/bank_2025-12.pdf" target="_self">
+                    NA
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/hoa/admin_2025-12.pdf" target="_self">
+                    NA
                   </a>
                 </td>
               </tr>
