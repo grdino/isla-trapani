@@ -30,7 +30,7 @@ export default function Owners() {
             ))}
           </ul>
             
-         <br>
+         <br />
          <hr className="full-line" />
           <h2>{t("owners_docs")}</h2>
          <hr className="full-line" />
@@ -54,7 +54,7 @@ export default function Owners() {
           </ul>
 
           {/* New Section: Asambleas / Assemblies */}
-         <br>
+         <br />
          <hr className="full-line" />
           <h2>Asambleas / Assemblies</h2>
          <hr className="full-line" />
@@ -132,7 +132,7 @@ export default function Owners() {
          </table>
 
           {/* New Section: Asambleas / Assemblies */}
-         <br>
+         <br />
          <hr className="full-line" />
           <h2>Bank Statements / Admin Reports</h2>
          <hr className="full-line" />
