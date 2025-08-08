@@ -23,14 +23,17 @@ export default function Owners() {
         <div style={{ padding: '20px' }}>
          <hr className="full-line" />
           <h2>{t("owners_news")}</h2>
+         <hr className="full-line" />
           <ul>
             {news.map((item) => (
               <li key={item.id}>{item.text}</li>
             ))}
           </ul>
-
+            
+         <br>
          <hr className="full-line" />
           <h2>{t("owners_docs")}</h2>
+         <hr className="full-line" />
           <ul>
             {documents.map((doc) => (
               <li key={doc.id}>
@@ -51,8 +54,10 @@ export default function Owners() {
           </ul>
 
           {/* New Section: Asambleas / Assemblies */}
+         <br>
          <hr className="full-line" />
           <h2>Asambleas / Assemblies</h2>
+         <hr className="full-line" />
 
          <table className="responsive-table">
            <thead>
@@ -127,8 +132,10 @@ export default function Owners() {
          </table>
 
           {/* New Section: Asambleas / Assemblies */}
+         <br>
          <hr className="full-line" />
           <h2>Bank Statements / Admin Reports</h2>
+         <hr className="full-line" />
 
           <table className="responsive-table">
             <thead>
