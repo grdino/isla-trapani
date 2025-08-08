@@ -78,7 +78,9 @@ export default function Owners() {
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;Date">2025-07-05</td>
+               <td data-label="Fecha&#10;Date">
+                2025-07-05 <span className="date-format">(AAAA/MM/DD)</span>
+               </td>
                <td data-label="Reunión&#10;/Meeting">
                 Asamblea Ordinaria<br />Ordinary Meeting
                </td>
