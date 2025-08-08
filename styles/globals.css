@@ -6,3 +6,12 @@ body {
 main {
   padding: 20px;
 }
+
+/* Horizontal line style */
+.full-line {
+  border: none;
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  margin: 20px 0; /* optional space above/below */
+}
