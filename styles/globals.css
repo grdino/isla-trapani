@@ -27,3 +27,8 @@ main {
     color: #d77b78; /* softer muted red for mobile */
   }
 }
+.date-format {
+  font-size: 0.85em;   /* slightly smaller */
+  color: #888;         /* lighter grey */
+  font-weight: normal; /* optional: remove bold */
+}
