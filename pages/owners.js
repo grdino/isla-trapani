@@ -84,7 +84,7 @@ export default function Owners() {
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
-               <tr>
+             <tr>
                <td data-label="Fecha&#10;Date">2024-09-07</td>
                <td data-label="Reunión&#10;/Meeting">
                  Asamblea Extraordinaria<br />Extraordinary Meeting
@@ -97,7 +97,6 @@ export default function Owners() {
                </td>
              </tr>
              <tr>
-             <tr>
                <td data-label="Fecha&#10;Date">2024-06-15</td>
                <td data-label="Reunión&#10;/Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
@@ -108,7 +107,8 @@ export default function Owners() {
                <td data-label="Documents">
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
-             </tr>            
+             </tr>   
+             <tr>
                <td data-label="Fecha&#10;Date">2023-11-11</td>
                <td data-label="Reunión&#10;/Meeting">
                  Asamblea Ordinaria<br />Ordinary Meeting
