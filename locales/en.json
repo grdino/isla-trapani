@@ -10,7 +10,7 @@
   "owners_news": "Latest HOA News",
   "owners_docs": "Owner Documents",
   "assemblies": "Assemblies",
-  "hoa-payments": "HOA Payments",
+  "hoa_payments": "HOA Payments",
   "password_prompt": "Enter password",
   "incorrect_password": "Incorrect password",
   "login_title": "Owner Login"
