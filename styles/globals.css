@@ -17,13 +17,13 @@ main {
 }
 .no-hay-text {
   font-size: 0.9em;
-  color: #666;
+  color: #b94a48; /* muted red */
   margin-top: 4px; /* space under the link */
 }
 
 @media screen and (max-width: 768px) {
   .no-hay-text {
     font-size: 0.8em;
-    color: #999;
+    color: #d77b78; /* softer muted red for mobile */
   }
 }
