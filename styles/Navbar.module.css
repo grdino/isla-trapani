@@ -30,13 +30,28 @@
   white-space: nowrap;
 }
 
-/* Right side: menu and hamburger */
+/* Right side: lang toggle, hamburger, and menu */
 .navbar .right {
   display: flex;
   align-items: center;
   flex-shrink: 1;
   min-width: 0;
   overflow: hidden;
+  gap: 12px; /* space between lang toggle, hamburger, and links */
+}
+
+/* Inline language toggle (outside the menu) */
+.navbar .langToggle {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+.navbar .langToggle:hover {
+  opacity: 0.85;
 }
 
 .navbar .hamburger {
@@ -68,7 +83,7 @@
   white-space: nowrap;
 }
 
-/* Mobile menu (triggers on tablets and small laptops too) */
+/* Mobile / tablet */
 @media (max-width: 1024px) {
   .navbar .hamburger {
     display: block;
@@ -89,4 +104,15 @@
   .navbar .menu.show {
     display: flex;
   }
+}
+
+/* Desktop layout refinements (optional) */
+@media (min-width: 1025px) {
+  /* Keep links inline on desktop */
+  .navbar .menu {
+    display: flex;
+  }
+
+  /* Hide hamburger on desktop (optional; you already do this above via default styles) */
+  /* .navbar .hamburger { display: none; } */
 }
