@@ -154,12 +154,103 @@ export default function Owners() {
               <tr>
                 <td data-label="2025">Enero&#10;/January</td>
                 <td data-label="Banco&#10;/Bank">
-                  <a href="/owners-docs/bank-2025-01.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/owners-docs/bank_2025-01.pdf" target="_self">
                     Link
                   </a>
                 </td>
                 <td data-label="Admon&#10;/Admin">
-                  <a href="/owners-docs/admin-2025-01.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/owners-docs/admin_2025-01.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-02.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-02.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-03.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-03.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-04.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-04.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-05.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-05.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-06.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-06.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-07.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-07.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">Enero&#10;/January</td>
+                <td data-label="Banco&#10;/Bank">
+                  <a href="/owners-docs/bank_2025-08.pdf" target="_self">
+                    Link
+                  </a>
+                </td>
+                <td data-label="Admon&#10;/Admin">
+                  <a href="/owners-docs/admin_2025-08.pdf" target="_self">
                     Link
                   </a>
                 </td>
