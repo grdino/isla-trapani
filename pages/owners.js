@@ -24,8 +24,10 @@ export default function Owners() {
               <li key={item.id}>{item.text}</li>
             ))}
           </ul>
-            
-          {/* New Section: Documentos / Documents */}
+
+         {/* ------------------------------------- */}
+         {/* New Section: Documentos / Documents   */}
+         {/* ------------------------------------- */}
          <br />
          <hr className="full-line" />
           <h2>{t("owners_docs")}</h2>
@@ -55,7 +57,9 @@ export default function Owners() {
            </tbody>
          </table>
 
-          {/* New Section: Asambleas / Assemblies */}
+         {/* ------------------------------------- */}
+         {/* New Section: Asambleas / Assemblies   */}
+         {/* ------------------------------------- */}
          <br /> <br />
          <hr className="full-line" />
          <h2>{t("assemblies")}</h2>
@@ -135,7 +139,9 @@ export default function Owners() {
            </tbody>
          </table>
 
-          {/* New Section: Cuotas / HOA Payments */}
+         {/* ------------------------------------- */}
+         {/* New Section: Cuotas / HOA Payments    */}
+         {/* ------------------------------------- */}
          <br />
          <br />
          <hr className="full-line" />
