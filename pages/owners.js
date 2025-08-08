@@ -56,7 +56,7 @@ export default function Owners() {
          </table>
 
           {/* New Section: Asambleas / Assemblies */}
-         <br />
+         <br /> <br />
          <hr className="full-line" />
          <h2>{t("assemblies")}</h2>
          <hr className="full-line" />
