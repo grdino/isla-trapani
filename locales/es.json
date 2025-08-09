@@ -15,6 +15,7 @@
   "incorrect_password": "Contraseña incorrecta",
   "login_title": "Inicio de sesión de propietarios",
   "tt_date": "Fecha",
+  "tt_date_fmt": "(AAAA-MM-DD)",
   "tt_doc_type": "Tipo de Doc",
   "tt_links": "Enlaces",
   "td_link": "Enlace",
