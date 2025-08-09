@@ -19,7 +19,7 @@
   "tt_doc_type": "Doc Type",
   "tt_links": "Links",
   "td_link": "Link",
-  "td_meeting_type": "Meeting Type",
+  "tt_meeting_type": "Meeting Type",
   "tt_bank": "Bank Account",
   "tt_admin": "Admin Report",
   "td_bylaws": "Bylaws"

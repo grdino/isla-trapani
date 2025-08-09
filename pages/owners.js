@@ -72,24 +72,24 @@ export default function Owners() {
            <thead>
              <tr>
                <th rowSpan="2">
-                 Fecha <span className="date-format">(AAAA/MM/DD)</span><br />
-                 Date <span className="date-format">(YYYY/MM/DD)</span>
+                <strong>{t("tt_date")}</strong>{" "}
+                <span className="date-format">{t("tt_date_fmt")}</span>
                </th>
-               <th rowSpan="2">Tipo de Reunión<br />Type of Meeting</th>
-               <th colSpan="2">Documentos<br />Documents</th>
+               <th rowSpan="2">{t("tt_meeting_type")}</th>
+               <th colSpan="2">{t("tt_links")}</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;/ Date">2025-07-05</td>
-               <td data-label="Reunión&#10;/ Meeting">
-                Asamblea Ordinaria<br />Ordinary Meeting
+               <td data-label={t("tt_date")}>2025-07-05</td>
+               <td data-label={t("tt_meeting_type")}>
+                {t("td_agm")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/combined-2025-07-05-esp.pdf">Español</a>
                  <div className="no-hay-text">No Hay Acta Todavia</div>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                  <div className="no-hay-text">No Minutes Available </div>
                </td>
