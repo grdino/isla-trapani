@@ -36,7 +36,7 @@ export default function Owners() {
          <table className="responsive-table">
            <thead>
              <tr>
-               <th rowSpan="2">{t("date")}</th>
+               <th rowSpan="2">{t("tt_date")}</th>
                <th rowSpan="2">Tipo de Documento<br />Document Type</th>
                <th colSpan="2">Documento<br />Document</th>
              </tr>
