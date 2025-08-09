@@ -40,13 +40,13 @@ export default function Owners() {
                 <strong>{t("tt_date")}</strong>{" "}
                 <span className="date-format">{t("tt_date_fmt")}</span>
                </th>
-               <th rowSpan="2">Tipo de Documento<br />Document Type</th>
-               <th colSpan="2">Documento<br />Document</th>
+               <th rowSpan="2">{t("tt_doc_type")}</th>
+               <th colSpan="2">{t("tt_links")}</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td data-label="Fecha&#10;Date">2024-09-07</td>
+               <td data-label="{t("tt_date")}">2024-09-07</td>
                <td data-label="Typo de Doc&#10;/ Doc Type">
                 Reglamentos<br />Bylaws
                </td>
