@@ -173,6 +173,10 @@ const adminHref = (mm) => `/owners-docs/hoa/admin_${year}-${mm}.pdf`;
          <hr className="full-line" />
          <h2>{t("hoa_payments")}</h2>
 
+         <div className="year-instructions">
+          {t("year_instructions")}
+         </div>
+
          {/* Year selector (between the lines, after the heading) */}
           <div className="year-nav">
             <button onClick={prevYear} disabled={yearIndex === 0}>‹</button>

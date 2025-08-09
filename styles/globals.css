@@ -60,3 +60,10 @@ main {
   font-size: 18px;
   letter-spacing: 0.5px;
 }
+.year-instructions {
+  text-align: center;
+  color: #6c757d; /* muted grey-blue or adjust to your 'instructional' color */
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 6px;
+}

@@ -36,5 +36,6 @@
   "sep": "September",
   "oct": "October",
   "nov": "November",
-  "dec": "December"
+  "dec": "December",
+  "year_instructions": "Select Desired Year Below"
 }
