@@ -50,10 +50,10 @@ export default function Owners() {
                <td data-label={t("tt_doc_type")}>
                 {t("td_bylaws")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_doc_type")}>
                  <a href="/owners-docs/reglamentos.pdf">Español</a>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_doc_type")}>
                  <a href="/owners-docs/bylaws.pdf">English</a>
                </td>
              </tr>
