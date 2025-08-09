@@ -32,3 +32,31 @@ main {
   color: #888;         /* lighter grey */
   font-weight: normal; /* optional: remove bold */
 }
+.year-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 8px 0;
+}
+
+.year-nav button {
+  background: none;
+  border: 1px solid #ffffff80;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.year-nav button:hover {
+  background: #f2f2f2;
+}
+
+.year-value {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
