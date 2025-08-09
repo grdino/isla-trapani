@@ -9,9 +9,16 @@
   "about_text": "Isla Trapani es una tranquila comunidad privada ubicada en el desarrollo AltaVela II de Nayarit, México. Rodeada de exuberantes jardines y con una hermosa piscina, ofrece un refugio relajante a solo minutos de la vibrante cultura local.",
   "owners_news": "Últimas noticias de la HOA",
   "assemblies": "Asambleas",
-  "owners_docs": "Documentos de propietarios",
+  "owners_docs": "Documentos de Propietarios",
   "hoa_payments": "Cuotas",
   "password_prompt": "Ingrese la contraseña",
   "incorrect_password": "Contraseña incorrecta",
-  "login_title": "Inicio de sesión de propietarios"
+  "login_title": "Inicio de sesión de propietarios",
+  "tt_date": "Fecha",
+  "tt_doc_type": "Tipo de Doc",
+  "tt_links": "Enlaces",
+  "td_link": "Enlace",
+  "td_meeting_type": "Tipo de Asamblea",
+  "tt_bank": "Cuenta de Banco",
+  "tt_admin": "Informe de Admón"
 }
