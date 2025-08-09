@@ -222,44 +222,44 @@ const adminHref = (mm) => `/owners-docs/hoa/admin_${year}-${mm}.pdf`;
               </tr>
               <tr>
                 <td data-label={String(year)}>{t("jun")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">No Disponible / Not Available</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">No Disponible / Not Available</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("06")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("06")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("jul")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">No Disponible / Not Available</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">No Disponible / Not Available</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("07")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("07")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("aug")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">NA</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">NA</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("08")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("08")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("sep")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">NA</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">NA</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("09")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("09")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("oct")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">NA</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">NA</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("10")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("10")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("nov")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">NA</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">NA</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("11")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("11")} target="_self">{t("td_link")}</a></td>
               </tr>
 
               <tr>
                 <td data-label={String(year)}>{t("dec")}</td>
-                <td data-label={t("tt_bank")}><div className="no-hay-text">NA</div></td>
-                <td data-label={t("tt_admin")}><div className="no-hay-text">NA</div></td>
+                <td data-label={t("tt_bank")}><a href={bankHref("12")} target="_self">{t("td_link")}</a></td>
+                <td data-label={t("tt_admin")}><a href={adminHref("12")} target="_self">{t("td_link")}</a></td>
               </tr>
             </tbody>
           </table>
