@@ -22,5 +22,7 @@
   "tt_meeting_type": "Meeting Type",
   "tt_bank": "Bank Account",
   "tt_admin": "Admin Report",
-  "td_bylaws": "Bylaws"
+  "td_bylaws": "Bylaws",
+  "td_agm": "Ordinary",
+  "td_ext": "Extraordinary"
 }
