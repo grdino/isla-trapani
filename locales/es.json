@@ -24,5 +24,17 @@
   "tt_admin": "Informe de Admón",
   "td_bylaws": "Reglamentos",
   "td_agm": "Ordinaria",
-  "td_ext": "Extraordinaria"
+  "td_ext": "Extraordinaria",
+  "jan": "Enero",
+  "feb": "Febrero",
+  "mar": "Marzo",
+  "apr": "Abril",
+  "may": "Mayo",
+  "jun": "Junio",
+  "jul": "Julio",
+  "aug": "Agosto",
+  "sep": "Septiembre",
+  "oct": "Octubre",
+  "nov": "Noviembre",
+  "dec": "Diciembre"
 }

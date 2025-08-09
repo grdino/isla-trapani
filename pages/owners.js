@@ -158,136 +158,136 @@ export default function Owners() {
             <thead>
               <tr>
                 <th>2025</th>
-                <th>Cuenta De Banco<br />Bank Statement</th>
-                <th>Informe de Admon<br />Admin Report</th>
+                <th>{t("tt_bank")}</th>
+                <th>{t("tt_admin")}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td data-label="2025">Enero&#10;/January</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("jan")}</td>
+                <td data-label={t("tt_bank")}>
                   <a href="/owners-docs/hoa/bank_2025-01.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <a href="/owners-docs/hoa/admin_2025-01.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Febrero&#10;/February</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("feb")}</td>
+                <td data-label={t("tt_bank")}>
                   <a href="/owners-docs/hoa/bank_2025-02.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <a href="/owners-docs/hoa/admin_2025-02.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Marzo&#10;/March</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("mar")}</td>
+                <td data-label={t("tt_bank")}>
                   <a href="/owners-docs/hoa/bank_2025-03.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <a href="/owners-docs/hoa/admin_2025-03.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Abril&#10;/April</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("apr")}</td>
+                <td data-label={t("tt_bank")}>
                   <a href="/owners-docs/hoa/bank_2025-04.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <a href="/owners-docs/hoa/admin_2025-04.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Mayo&#10;/May</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("may")}</td>
+                <td data-label={t("tt_bank")}>
                   <a href="/owners-docs/hoa/bank_2025-05.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <a href="/owners-docs/hoa/admin_2025-05.pdf" target="_self">
-                    Link
+                    {t("td_link")}
                   </a>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Junio&#10;/June</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("jun")}</td>
+                <td data-label={t("tt_bank")}>
                  <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                   <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Julio&#10;/July</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("jul")}</td>
+                <td data-label={t("tt_bank")}>
                  <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                  <div className="no-hay-text">No Disponible / Not Available</div>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Agosto&#10;/August</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("aug")}</td>
+                <td data-label={t("tt_bank")}>
                 <div className="no-hay-text">NA</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                  <div className="no-hay-text">NA</div>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Septiembre&#10;/September</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("sep")}</td>
+                <td data-label={t("tt_bank")}>
                  <div className="no-hay-text">NA</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
-                 <div className="no-hay-text">NA</div>
-                </td>
-              </tr>
-              <tr>
-                <td data-label="2025">Octubre&#10;/October</td>
-                <td data-label="Banco&#10;/Bank">
-                 <div className="no-hay-text">NA</div>
-                </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                  <div className="no-hay-text">NA</div>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Noviembre&#10;/November</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("oct")}</td>
+                <td data-label={t("tt_bank")}>
                  <div className="no-hay-text">NA</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
                  <div className="no-hay-text">NA</div>
                 </td>
               </tr>
               <tr>
-                <td data-label="2025">Diciembre&#10;/December</td>
-                <td data-label="Banco&#10;/Bank">
+                <td data-label="2025">{t("nov")}</td>
+                <td data-label={t("tt_bank")}>
                  <div className="no-hay-text">NA</div>
                 </td>
-                <td data-label="Admon&#10;/Admin">
+                <td data-label={t("tt_admin")}>
+                 <div className="no-hay-text">NA</div>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="2025">{t("dec")}</td>
+                <td data-label={t("tt_bank")}>
+                 <div className="no-hay-text">NA</div>
+                </td>
+                <td data-label={t("tt_admin")}>
                  <div className="no-hay-text">NA</div>
                 </td>
               </tr>

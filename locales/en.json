@@ -24,5 +24,17 @@
   "tt_admin": "Admin Report",
   "td_bylaws": "Bylaws",
   "td_agm": "Ordinary",
-  "td_ext": "Extraordinary"
+  "td_ext": "Extraordinary",
+  "jan": "January",
+  "feb": "February",
+  "mar": "March",
+  "apr": "April",
+  "may": "May",
+  "jun": "June",
+  "jul": "July",
+  "aug": "August",
+  "sep": "September",
+  "oct": "October",
+  "nov": "November",
+  "dec": "December"
 }
