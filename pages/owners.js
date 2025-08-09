@@ -95,50 +95,50 @@ export default function Owners() {
                </td>
              </tr>
              <tr>
-                <td data-label="Fecha&#10;/ Date">2024-12-21</td>
-                <td data-label="Reunión&#10;/ Meeting">
-                 Asamblea Ordinaria<br />Ordinary Meeting
+                <td data-label={t("tt_date")}>2024-12-21</td>
+                <td data-label={t("tt_meeting_type")}>
+                 {t("td_agm")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/combined-2024-12-21-esp.pdf">Español</a>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;/ Date">2024-09-07</td>
-               <td data-label="Reunión&#10;/ Meeting">
-                 Asamblea Extraordinaria<br />Extraordinary Meeting
+               <td data-label={t("tt_date")}>2024-09-07</td>
+               <td data-label={t("tt_meeting_type")}>
+                 {t("td_ext")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/combined-2024-09-07-esp.pdf">Español</a>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
              <tr>
-               <td data-label="Fecha&#10;/ Date">2024-06-15</td>
-               <td data-label="Reunión&#10;/ Meeting">
-                 Asamblea Ordinaria<br />Ordinary Meeting
+               <td data-label={t("tt_date")}>2024-06-15</td>
+               <td data-label={t("tt_meeting_type")}>
+                 {t("td_agm")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/combined-2024-06-15-esp.pdf">Español</a>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>   
              <tr>
-               <td data-label="Fecha&#10;/ Date">2023-11-11</td>
-               <td data-label="Reunión&#10;/ Meeting">
-                 Asamblea Ordinaria<br />Ordinary Meeting
+               <td data-label={t("tt_date")}>2023-11-11</td>
+               <td data-label={t("tt_meeting_type")}>
+                 {t("td_agm")}
                </td>
-               <td data-label="Documentos">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/combined-2023-11-11-esp.pdf">Español</a>
                </td>
-               <td data-label="Documents">
+               <td data-label={t("tt_links")}>
                  <a href="/owners-docs/no-english-available.pdf">English</a>
                </td>
              </tr>
