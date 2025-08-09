@@ -8,7 +8,7 @@ export default function Owners() {
   const { t } = useLanguage();
 
 // Allowed HOA payment years
-const YEARS = [2023, 2024, 2025];
+const YEARS = [2022, 2023, 2024, 2025];
 
 // Default to highest year
 const [yearIndex, setYearIndex] = useState(YEARS.length - 1);
