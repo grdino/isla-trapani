@@ -47,8 +47,8 @@ export default function Owners() {
            <tbody>
              <tr>
                <td data-label={t("tt_date")}>2024-09-07</td>
-               <td data-label="Typo de Doc&#10;/ Doc Type">
-                Reglamentos<br />Bylaws
+               <td data-label={t("tt_doc_type")}>
+                {t("td_bylaws")}
                </td>
                <td data-label="Documentos">
                  <a href="/owners-docs/reglamentos.pdf">Español</a>
