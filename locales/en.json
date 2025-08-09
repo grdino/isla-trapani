@@ -13,5 +13,12 @@
   "hoa_payments": "HOA Payments",
   "password_prompt": "Enter password",
   "incorrect_password": "Incorrect password",
-  "login_title": "Owner Login"
+  "login_title": "Owner Login",
+  "tt_date": "Date",
+  "tt_doc_type": "Doc Type",
+  "tt_links": "Links",
+  "td_link": "Link",
+  "td_meeting_type": "Meeting Type",
+  "tt_bank": "Bank Account",
+  "tt_admin": "Admin Report"
 }
