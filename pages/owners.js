@@ -86,6 +86,7 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Documentos / Documents   */}
           {/* ------------------------------------- */}
+          <br />
           <div className="heading-band">
            <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
           </div>
@@ -120,6 +121,7 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Asambleas / Assemblies   */}
           {/* ------------------------------------- */}
+          <br />
           <div className="heading-band">
             <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
           </div>
@@ -204,6 +206,7 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Cuotas / HOA Payments    */}
           {/* ------------------------------------- */}
+          <br />
           <div className="heading-band">
             <h2 style={{ textAlign: 'center' }}>{t('hoa_payments')}</h2>
 
