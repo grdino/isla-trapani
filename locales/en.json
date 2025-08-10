@@ -37,5 +37,6 @@
   "oct": "October",
   "nov": "November",
   "dec": "December",
-  "year_instructions": "Select Desired Year Below"
+  "year_instructions": "Select Desired Year Below",
+  "td_not_avail": "Not Available"
 }

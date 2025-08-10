@@ -37,5 +37,6 @@
   "oct": "Octubre",
   "nov": "Noviembre",
   "dec": "Diciembre",
-  "year_instructions": "Seleccione el Año Deseado a Continuación"
+  "year_instructions": "Seleccione el Año Deseado a Continuación",
+  "td_not_avail": "No Disponible"
 }
