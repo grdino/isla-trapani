@@ -73,7 +73,6 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Latest HOA News   */}
           {/* ------------------------------------- */}
-          <hr className="full-line" />
           <div className="heading-band">
            <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
           </div>
@@ -87,8 +86,6 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Documentos / Documents   */}
           {/* ------------------------------------- */}
-          <br />
-          <hr className="full-line" />
           <div className="heading-band">
            <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
           </div>
@@ -123,8 +120,6 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Asambleas / Assemblies   */}
           {/* ------------------------------------- */}
-          <br /> <br />
-          <hr className="full-line" />
           <div className="heading-band">
             <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
           </div>
@@ -209,10 +204,6 @@ export default function Owners() {
           {/* ------------------------------------- */}
           {/* New Section: Cuotas / HOA Payments    */}
           {/* ------------------------------------- */}
-          <br />
-          <br />
-          <hr className="full-line" />
-
           <div className="heading-band">
             <h2 style={{ textAlign: 'center' }}>{t('hoa_payments')}</h2>
 
