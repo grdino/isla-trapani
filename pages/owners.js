@@ -69,9 +69,15 @@ export default function Owners() {
     <Layout>
       <ProtectedRoute>
         <div style={{ padding: '20px' }}>
+
+          {/* ------------------------------------- */}
+          {/* New Section: Latest HOA News   */}
+          {/* ------------------------------------- */}
           <hr className="full-line" />
-          <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
-          <hr className="full-line" />
+          <div className="heading-band">
+           <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
+          </div>
+
           <ul>
             {news.map((item) => (
               <li key={item.id}>{item.text}</li>
@@ -83,12 +89,9 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br />
           <hr className="full-line" />
-
           <div className="heading-band">
            <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
           </div>
-
-          <hr className="full-line" />
 
           <table className="responsive-table">
             <thead>
@@ -122,12 +125,9 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br /> <br />
           <hr className="full-line" />
-
           <div className="heading-band">
             <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
           </div>
-
-          <hr className="full-line" />
 
           <table className="responsive-table">
             <thead>
@@ -226,8 +226,6 @@ export default function Owners() {
               <button onClick={nextYear} disabled={yearIndex === YEARS.length - 1}>›</button>
             </div>
           </div>
-
-          <hr className="full-line" />
 
           <table className="responsive-table">
             <thead>
