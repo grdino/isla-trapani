@@ -67,3 +67,18 @@ main {
   font-size: 14px;
   margin-bottom: 6px;
 }
+.heading-band {
+  background: #f5f7fa;          /* light grey */
+  border: 1px solid #e6e9ef;     /* optional subtle border */
+  border-radius: 10px;           /* optional rounding */
+  padding: 12px 16px;
+  margin: 8px 0;                 /* space from the hr lines */
+  text-align: center;
+}
+
+/* if you want the instruction line slightly smaller */
+.year-instructions {
+  color: #6c757d;
+  font-size: 14px;
+  margin: 4px 0 6px;
+}

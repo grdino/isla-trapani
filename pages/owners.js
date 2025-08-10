@@ -83,7 +83,11 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br />
           <hr className="full-line" />
-          <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
+
+          <div className="heading-band">
+           <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
+          </div>
+
           <hr className="full-line" />
 
           <table className="responsive-table">
@@ -118,7 +122,11 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br /> <br />
           <hr className="full-line" />
-          <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
+
+          <div className="heading-band">
+            <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
+          </div>
+
           <hr className="full-line" />
 
           <table className="responsive-table">
@@ -204,16 +212,19 @@ export default function Owners() {
           <br />
           <br />
           <hr className="full-line" />
-          <h2 style={{ textAlign: 'center' }}>{t('hoa_payments')}</h2>
 
-          <div className="year-instructions">
-            {t('year_instructions')}
-          </div>
+          <div className="heading-band">
+            <h2 style={{ textAlign: 'center' }}>{t('hoa_payments')}</h2>
 
-          <div className="year-nav">
-            <button onClick={prevYear} disabled={yearIndex === 0}>‹</button>
-            <span className="year-value">{year}</span>
-            <button onClick={nextYear} disabled={yearIndex === YEARS.length - 1}>›</button>
+            <div className="year-instructions">
+             {t('year_instructions')}
+            </div>
+
+            <div className="year-nav">
+              <button onClick={prevYear} disabled={yearIndex === 0}>‹</button>
+              <span className="year-value">{year}</span>
+              <button onClick={nextYear} disabled={yearIndex === YEARS.length - 1}>›</button>
+            </div>
           </div>
 
           <hr className="full-line" />
