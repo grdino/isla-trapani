@@ -70,7 +70,7 @@ export default function Owners() {
       <ProtectedRoute>
         <div style={{ padding: '20px' }}>
           <hr className="full-line" />
-          <h2>{t('owners_news')}</h2>
+          <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
           <hr className="full-line" />
           <ul>
             {news.map((item) => (
@@ -83,7 +83,7 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br />
           <hr className="full-line" />
-          <h2>{t('owners_docs')}</h2>
+          <h2 style={{ textAlign: 'center' }}>{t('owners_docs')}</h2>
           <hr className="full-line" />
 
           <table className="responsive-table">
@@ -118,7 +118,7 @@ export default function Owners() {
           {/* ------------------------------------- */}
           <br /> <br />
           <hr className="full-line" />
-          <h2>{t('assemblies')}</h2>
+          <h2 style={{ textAlign: 'center' }}>{t('assemblies')}</h2>
           <hr className="full-line" />
 
           <table className="responsive-table">
