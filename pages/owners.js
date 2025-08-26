@@ -115,6 +115,18 @@ export default function Owners() {
                   <a href="/owners-docs/bylaws.pdf">English</a>
                 </td>
               </tr>
+              <tr>
+                <td data-label={t('tt_date')}>2025-07-15</td>
+                <td data-label={t('tt_doc_type')}>
+                  {t('td_bank')}
+                </td>
+                <td data-label={t('td_link')}>
+                  <a href="/owners-docs/bank.pdf">Español</a>
+                </td>
+                <td data-label={t('td_link')}>
+                  <a href="/owners-docs/bank.pdf">English</a>
+                </td>
+              </tr>
             </tbody>
           </table>
 
