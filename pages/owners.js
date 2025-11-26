@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import ProtectedRoute from '../components/ProtectedRoute';
 import { useLanguage } from '../lib/useLanguage';
-import { getNews, getDocuments } from '../lib/googleSheets';
+// import { getNews, getDocuments } from '../lib/googleSheets';
 import { useState } from 'react';
 
 export default function Owners() {
