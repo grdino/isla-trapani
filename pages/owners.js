@@ -151,6 +151,20 @@ export default function Owners() {
             </thead>
             <tbody>
               <tr>
+                <td data-label={t('tt_date')}>2025-11-16</td>
+                <td data-label={t('tt_meeting_type')}>
+                  {t('td_agm')}
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/summary-2025-11-16-esp.pdf">Español</a>
+                  <div className="no-hay-text">No Hay Acta Todavia</div>
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/summary-2025-11-16-eng.pdf">English</a>
+                  <div className="no-hay-text">No Minutes Available</div>
+                </td>
+              </tr>
+              <tr>
                 <td data-label={t('tt_date')}>2025-07-05</td>
                 <td data-label={t('tt_meeting_type')}>
                   {t('td_agm')}
