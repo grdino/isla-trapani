@@ -306,16 +306,16 @@ export default function Owners() {
             </thead>
             <tbody>
               <tr>
-                <td data-label={t('tt_date')}>2025-05-10</td>
+                <td data-label={t('tt_date')}>2025-11-25</td>
                 <td data-label={t('tt_notice')}>
                   Actividades Sep-Oct / Projects Sep-Oct.
                 </td>
                 <td data-label={t('tt_links')}>
-                  <a href="/owners-docs/whatsapp/2025-05-10-pool.pdf">
-                    Download
+                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Esp_compressed">
+                    Español
                   </a>
-                  <a href="/owners-docs/whatsapp/2025-05-10-pool.pdf">
-                    Download
+                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Eng_compressed">
+                    English
                   </a>
                 </td>
               </tr>
