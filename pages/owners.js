@@ -307,22 +307,14 @@ export default function Owners() {
             <tbody>
               <tr>
                 <td data-label={t('tt_date')}>2025-05-10</td>
-                <td data-label="Notice">
-                  Pool maintenance schedule sent via WhatsApp.
+                <td data-label={t('tt_notice')}>
+                  Actividades Sep-Oct / Projects Sep-Oct.
                 </td>
                 <td data-label={t('tt_links')}>
                   <a href="/owners-docs/whatsapp/2025-05-10-pool.pdf">
                     Download
                   </a>
-                </td>
-              </tr>
-              <tr>
-                <td data-label={t('tt_date')}>2025-04-02</td>
-                <td data-label="Notice">
-                  Water interruption notice sent via WhatsApp.
-                </td>
-                <td data-label={t('tt_links')}>
-                  <a href="/owners-docs/whatsapp/2025-04-02-water.pdf">
+                  <a href="/owners-docs/whatsapp/2025-05-10-pool.pdf">
                     Download
                   </a>
                 </td>
