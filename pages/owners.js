@@ -314,6 +314,7 @@ export default function Owners() {
                   <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Esp_compressed">
                     Español
                   </a>
+                  &nbsp;&nbsp;
                   <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Eng_compressed">
                     English
                   </a>
