@@ -311,11 +311,11 @@ export default function Owners() {
                   Actividades Sep-Oct / Projects Sep-Oct.
                 </td>
                 <td data-label={t('tt_links')}>
-                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Esp_compressed">
+                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Esp_compressed.pdf">
                     Español
                   </a>
                   &nbsp;&nbsp;
-                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Eng_compressed">
+                  <a href="/owners-docs/whatsapp/2025-11-25 - Projects SEP- OCT - Eng_compressed.pdf">
                     English
                   </a>
                 </td>
