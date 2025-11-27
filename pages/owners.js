@@ -74,14 +74,29 @@ export default function Owners() {
           {/* New Section: Latest HOA News   */}
           {/* ------------------------------------- */}
           <div className="heading-band">
-           <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
-          </div>
+            <h2 style={{ textAlign: 'center' }}>{t('owners_news')}</h2>
 
-          <ul>
-            {news.map((item) => (
-              <li key={item.id}>{item.text}</li>
-            ))}
-          </ul>
+            <div className="whatsapp-button-wrapper">
+              <button
+                type="button"
+                className="whatsapp-button"
+                onClick={() => {
+                  const el = document.getElementById('whatsapp-notices');
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+              >
+                WhatsApp Notifications
+              </button>
+            </div>
+         </div>
+
+         <ul>
+           {news.map((item) => (
+             <li key={item.id}>{item.text}</li>
+           ))}
+         </ul>
 
           {/* ------------------------------------- */}
           {/* New Section: Documentos / Documents   */}
@@ -269,6 +284,52 @@ export default function Owners() {
               ))}
             </tbody>
           </table>
+
+          {/* ------------------------------------- */}
+          {/* New Section: WhatsApp Notices         */}
+          {/* ------------------------------------- */}
+          <br />
+          <div className="heading-band" id="whatsapp-notices">
+            <h2 style={{ textAlign: 'center' }}>{t('whatsapp_notices')}</h2>
+          </div>
+
+          <table className="responsive-table">
+            <thead>
+              <tr>
+                <th>
+                  <strong>{t('tt_date')}</strong>{' '}
+                  <span className="date-format">{t('tt_date_fmt')}</span>
+                </th>
+                <th>Notice</th>
+                <th>{t('tt_links')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label={t('tt_date')}>2025-05-10</td>
+                <td data-label="Notice">
+                  Pool maintenance schedule sent via WhatsApp.
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/whatsapp/2025-05-10-pool.pdf">
+                    Download
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label={t('tt_date')}>2025-04-02</td>
+                <td data-label="Notice">
+                  Water interruption notice sent via WhatsApp.
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/whatsapp/2025-04-02-water.pdf">
+                    Download
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </ProtectedRoute>
 
@@ -371,6 +432,23 @@ export default function Owners() {
             white-space: pre-line;
           }
         }
+        .whatsapp-button-wrapper {
+          text-align: center;
+          margin-top: 10px;
+        }
+        .whatsapp-button {
+          padding: 8px 16px;
+          border-radius: 6px;
+          border: 1px solid #25d366;
+          background-color: #25d366;
+          color: #fff;
+          font-weight: 600;
+          cursor: pointer;
+          font-size: 14px;
+        }
+        .whatsapp-button:hover {
+          opacity: 0.9;
+        }            
       `}</style>
     </Layout>
   );
