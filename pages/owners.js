@@ -320,6 +320,17 @@ export default function Owners() {
                   </a>
                 </td>
               </tr>
+              <tr>
+                <td data-label={t('tt_date')}>2025-11-25</td>
+                <td data-label={t('tt_notice')}>
+                  Jardineria / Gardner
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/whatsapp/2025-11-25 - New Gardener.jpeg">
+                    Enlace / Link
+                  </a>
+                </td>
+              </tr>
             </tbody>
           </table>
 
