@@ -136,10 +136,10 @@ export default function Owners() {
                   {t('td_bank')}
                 </td>
                 <td data-label={t('td_link')}>
-                  <a href="/owners-docs/bank.pdf">Español</a>
+                  <a href="/owners-docs/Trapani Bank Account - 2025-11-30.jpeg">Español</a>
                 </td>
                 <td data-label={t('td_link')}>
-                  <a href="/owners-docs/bank.pdf">English</a>
+                  <a href="/owners-docs/Trapani Bank Account - 2025-11-30.jpeg">English</a>
                 </td>
               </tr>
             </tbody>
@@ -305,6 +305,17 @@ export default function Owners() {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td data-label={t('tt_date')}>2025-11-28</td>
+                <td data-label={t('tt_notice')}>
+                  Nueveo Vecino (51)<br />New Neighbor (51)
+                </td>
+                <td data-label={t('tt_links')}>
+                  <a href="/owners-docs/whatsapp/2025-11-28 - Trapani New Neighbor.jpg">
+                    Enlace / Link
+                  </a>
+                </td>
+              </tr>
               <tr>
                 <td data-label={t('tt_date')}>2025-11-25</td>
                 <td data-label={t('tt_notice')}>
