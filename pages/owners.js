@@ -172,11 +172,9 @@ export default function Owners() {
                 </td>
                 <td data-label={t('tt_links')}>
                   <a href="/owners-docs/2026-08-15 - Combined Summary - Esp.pdf">Español</a>
-                  <div className="no-hay-text">Minutos completos no proporcionados aun</div>
                 </td>
                 <td data-label={t('tt_links')}>
                   <a href="/owners-docs/2026-08-15 - Combined Summary - Eng.pdf">English</a>
-                  <div className="no-hay-text">Full minutes not provided yet</div>
                 </td>
               </tr>
               <tr>
