@@ -171,10 +171,10 @@ export default function Owners() {
                   {t('td_agm')}
                 </td>
                 <td data-label={t('tt_links')}>
-                  <a href="/owners-docs/2026-08-15 - Combined Summary - Esp.pdf">Español</a>
+                  <a href="/owners-docs/combined-2026-08-15-esp.pdf.pdf">Español</a>
                 </td>
                 <td data-label={t('tt_links')}>
-                  <a href="/owners-docs/2026-08-15 - Combined Summary - Eng.pdf">English</a>
+                  <a href="/owners-docs/combined-2026-08-15-eng.pdf">English</a>
                 </td>
               </tr>
               <tr>
